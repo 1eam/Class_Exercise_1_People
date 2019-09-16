@@ -1,6 +1,6 @@
 package people;
 
-public class Ethnicity {
+public class Ethnicity { returns String;
 
 //Input is string
 	public String skinColor;
@@ -8,13 +8,23 @@ public class Ethnicity {
 	public String typeEyes;
 	public String typeVoice;
 	
-	Ethnicity(String skinColor, String colorEyes, String typeEyes, String typeVoice){
+	public Ethnicity(String skinColor, String colorEyes, String typeEyes, String typeVoice){
 	}
 	
-	Ethnicity american = new Ethnicity("White", "Blue", "Round", "2008");
-	Ethnicity europen = new Ethnicity("White", "Blue", "Round", "2008");
-	Ethnicity asian = new Ethnicity("White", "Blue", "Round", "2008");
-	Ethnicity afrian = new Ethnicity("White", "Blue", "Round", "2008");
+	Ethnicity american = new Ethnicity("White", "Blue", "Round", "sound like people from reality TV")
+	Ethnicity european = new Ethnicity("White", "Blue, Grey or Brown", "Round", "like trying to speak whilst gagging");
+	Ethnicity asian = new Ethnicity("Yellow", "brown or darkbrown", "Round", "high and weird words emphasis");
+	Ethnicity african = new Ethnicity("Black", "Darkbrown", "Round", "2+2=4");
+
+	public Ethnicity(Ethnicity american, Ethnicity european, Ethnicity asian, Ethnicity african) {
+		super();
+		this.american = american;
+		this.european = european;
+		this.asian = asian;
+		this.african = african;
+	}
+	
+	//functie Ethnicity () is this.eyecolor printen
+	System.out.println (american.skinColor);
 
 }
-//AMERICAN, EUROPEAN, ASAIN, AFRICAN with fixed attri butes: skincolor, type of eyes, color of eyes, type voice

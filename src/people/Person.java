@@ -2,7 +2,7 @@ package people;
 
 public class Person {
 	public String name;
-//	Ethnicity ethnicity; //TODO: make new class, containing strings declaring AMERICAN, EUROPEAN, ASAIN, AFRICAN with fixed attributes: skincolor, type of eyes, color of eyes, type voice
+	Ethnicity ethnicity;
 	public double height;
 	public String hobby;
 	public String characteristics;
@@ -20,4 +20,3 @@ public class Person {
 		System.out.println("My name is" + this.name);
 	}
 }
-//When Ethnicity Object is called, I want the ethnicity to automatically call: its skincolor
