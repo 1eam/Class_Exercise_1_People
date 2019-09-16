@@ -1,11 +1,11 @@
 package people;
 
 public class Person {
-	String name;
+	public String name;
 //	Ethnicity ethnicity; //TODO: make new class, containing strings declaring AMERICAN, EUROPEAN, ASAIN, AFRICAN with fixed attributes: skincolor, type of eyes, color of eyes, type voice
-	double height;
-	String hobby;
-	String characteristics;
+	public double height;
+	public String hobby;
+	public String characteristics;
 	
 	//--constructor for my person Attributes--
 	
@@ -17,7 +17,8 @@ public class Person {
 //		this.characteristics = characteristics;
 //	}
 	
-	//--this class' function is to describe itself--
+	
+	//-- Describe itself function--
 	void describeSelf(){
 		System.out.println("Hi there, let VERY BASICALLY describe myself.");
 		System.out.println("My name is" + this.name);

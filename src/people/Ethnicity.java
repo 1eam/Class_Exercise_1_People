@@ -16,7 +16,8 @@ public class Ethnicity {
 	}
 	
 	Ethnicity American = new Ethnicity();
-	
+	case American = new Ethnicity (White, Blue, Round, amermican english)
+	return
 //	European
 //	Asian
 //	African
