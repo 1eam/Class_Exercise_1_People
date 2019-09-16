@@ -1,20 +1,22 @@
 package people;
 
 public class Ethnicity {
-	
+
+//Input is string
 	String skincolor;
 	String colorEyes;
 	String typeEyes;
 	String typeVoice;
 	
 	Ethnicity(String skincolor, String colorEyes, String typeEyes, String typeVoice){
-		this.skincolor = skincolor;
-		this.colorEyes = colorEyes;
-		this.typeEyes = typeEyes;
-		this.typeVoice = typeVoice;
+		skincolor = skincolor;
+		colorEyes = colorEyes;
+		typeEyes = typeEyes;
+		typeVoice = typeVoice;
 	}
 	
-//	American
+	Ethnicity American = new Ethnicity();
+	
 //	European
 //	Asian
 //	African
