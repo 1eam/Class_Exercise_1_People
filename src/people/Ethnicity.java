@@ -3,10 +3,10 @@ package people;
 public class Ethnicity {
 
 //Input is string
-	String skincolor;
-	String colorEyes;
-	String typeEyes;
-	String typeVoice;
+	public String skincolor;
+	public String colorEyes;
+	public String typeEyes;
+	public String typeVoice;
 	
 	Ethnicity(String skincolor, String colorEyes, String typeEyes, String typeVoice){
 		skincolor = skincolor;
