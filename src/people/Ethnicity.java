@@ -3,23 +3,18 @@ package people;
 public class Ethnicity {
 
 //Input is string
-	public String skincolor;
+	public String skinColor;
 	public String colorEyes;
 	public String typeEyes;
 	public String typeVoice;
 	
-	Ethnicity(String skincolor, String colorEyes, String typeEyes, String typeVoice){
-		skincolor = skincolor;
-		colorEyes = colorEyes;
-		typeEyes = typeEyes;
-		typeVoice = typeVoice;
+	Ethnicity(String skinColor, String colorEyes, String typeEyes, String typeVoice){
 	}
 	
-	Ethnicity American = new Ethnicity();
-	case American = new Ethnicity (White, Blue, Round, amermican english)
-	return
-//	European
-//	Asian
-//	African
+	Ethnicity american = new Ethnicity("White", "Blue", "Round", "2008");
+	Ethnicity europen = new Ethnicity("White", "Blue", "Round", "2008");
+	Ethnicity asian = new Ethnicity("White", "Blue", "Round", "2008");
+	Ethnicity afrian = new Ethnicity("White", "Blue", "Round", "2008");
+
 }
 //AMERICAN, EUROPEAN, ASAIN, AFRICAN with fixed attri butes: skincolor, type of eyes, color of eyes, type voice
