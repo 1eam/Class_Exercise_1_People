@@ -7,7 +7,7 @@ public class Person {
 	public String hobby;
 	public String characteristics;
 	
-	//--constructor for my person Attributes--
+	//--constructor for my person Attributes-- 
 	
 	public Person(String name, /*Ethnicity Ethnicity,*/ double height, String hobby, String characteristics){
 	}
