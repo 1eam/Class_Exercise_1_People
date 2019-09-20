@@ -16,7 +16,7 @@ public class Person {
 	//-- Describe itself function--
 	
 	void describeSelf(){
-		System.out.println("Hi there, let VERY BASICALLY describe myself.");
-		System.out.println("My name is" + this.name);
+		System.out.println("Hi there, let me VERY BASICALLY describe myself.");
+		System.out.println("My name is" + this.name + ethnicity + height + hobby + characteristics);
 	}
 }
